@@ -68,4 +68,6 @@ public class Customer {
     public void setBankbill(Long bankbill) {
         this.bankbill = bankbill;
     }
+
+
 }
