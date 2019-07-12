@@ -16,8 +16,8 @@ public class Main {
         for (int i = 0; i < s.length; i++) {
             count=0;
             temp = new Word(s[i],0);
-            if(!ls.contains(temp)) ls.add(new Word(s[i],++count));
-            else ls.get(ls.indexOf(temp)).setFreq(ls.get(ls.indexOf(temp)).getFreq()+1);
+            if(ls.contains(temp)) ls.get(ls.indexOf(temp)).setFreq(ls.get(ls.indexOf(temp)).getFreq()+1);
+            else ls.add(new Word(s[i],++count));
         }
         Collections.sort(ls);
         int max=0;
