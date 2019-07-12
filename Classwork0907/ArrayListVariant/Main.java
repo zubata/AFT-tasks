@@ -11,23 +11,13 @@ public class Main {
         String[] s =rd.readLine().split(" +");
         rd.close();
         ArrayList<Word> ls = new ArrayList<>();
-        int count;
-        int count2;
+        int count=0;
+        Word temp;
         for (int i = 0; i < s.length; i++) {
             count=0;
-            for (int j = 0; j < s.length; j++) {
-                if(s[i].equals(s[j])) count++;
-            }
-            //ниже проверка было ли уже добавлено слово в лист, если да, то оно просто не добавляется, альтернатива - добавить всё в лист
-            //и потом через итератор удалять дублируемые слова, данный код приведён начиная с 42 строки
-            if(count>1) {
-                count2=0;
-                for (Word l : ls) {
-                    if (s[i].equals(l.getWord())) count2++;
-                }
-                if(count2<1) ls.add(new Word(s[i],count));
-            }
-            else ls.add(new Word(s[i],count));
+            temp = new Word(s[i],0);
+            if(!ls.contains(temp)) ls.add(new Word(s[i],++count));
+            else ls.get(ls.indexOf(temp)).setFreq(ls.get(ls.indexOf(temp)).getFreq()+1);
         }
         Collections.sort(ls);
         int max=0;
