@@ -2,6 +2,9 @@ package Homework.Task2;
 
 import java.util.Arrays;
 
+// Task2
+//Написать генерацию строк длины 10, причем первые 4 символа - цифры, следующие два символы - различные буквы, следующие 4 символа - нули или единицы, причем одна единица точно присутствует.
+
 public class Task2 {
     public static void main(String[] args) {
         StringBuilder res = new StringBuilder();

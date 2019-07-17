@@ -2,6 +2,10 @@ package Classwork.Task12;
 
 import java.util.Arrays;
 
+//Task12
+//Массив размерностью 20 чисел заполняется случайными целыми числами от -10 до 10 (Использовать рандомизатор).
+//Найти Максимальный положительный и отрицательный элемент массива, поменять их местами.
+
 public class Task12 {
     public static void main(String[] args) {
         int[] mas = new int[20];

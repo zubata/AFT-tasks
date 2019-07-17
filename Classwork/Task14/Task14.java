@@ -4,6 +4,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//Task14 Поиск максимального элемента в массиве.
+//Размерность массива задается пользователем.
+//Пользователем вводится массив строк.
+//В полученном массиве необходимо найти самое длинное и самое короткое слово, вывести оба в консоль.
+
 public class Task14 {
     public static void main(String[] args) throws IOException {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));

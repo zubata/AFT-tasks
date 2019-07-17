@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//Task13
+//Реализовать базовые операции калькулятора (+ | - | / | *).
+//Операции разнести по отдельным методам. Упаковать программу в исполняемый jar. Должна запускаться по принципу java -jar * 1 2. Выводить результат в консоль.
+
 public class Task13 {
     public static void main(String[] args) throws IOException {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));

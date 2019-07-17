@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//Task1
+//Даны два слова. Найдите только те символы слов, которые встречаются в обоих словах только один раз.
+//Слова вводятся пользователем.
+
 public class Task1  {
     public static void main(String[] args) throws IOException {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));

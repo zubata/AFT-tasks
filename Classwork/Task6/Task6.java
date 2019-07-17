@@ -5,6 +5,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//Task6
+//Ввести с клавиатуры три числа
+//Отсортировать по возрастанию
+//Отсортировать по убыванию
+//Ввод: 16 43 23 вывод: 16 23 43 : 43 23 16
+
 public class Task6 {
     public static void main(String[] args) throws IOException {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));

@@ -2,6 +2,10 @@ package Classwork.Task10;
 
 import java.io.*;
 
+//Необходимо написать программу, которая будет выводить на экран текстовые данные из файла .txt,
+//а потом в этот же файл перезаписывать текстовые данные, введенные вручную.
+//Количество строк после перезаписи должно быть столько же, сколько и в изначальном варианте.
+
 public class Task10 {
     public static void main(String[] args) throws IOException {
         FileInputStream in = new FileInputStream("\\\\megafon.ru\\fr\\MF\\MSK\\VOL12\\oleg.zubkov\\Desktop\\res.txt");

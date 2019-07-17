@@ -5,6 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+// Task4
+//Пользователем с клавиатуры вводится два массива чисел, размерность массивов задается пользователем (не менее 4 символов).
+//Программа должна выводить массив чисел, который состоит из середин двух массивов сложенных и перемешанных между собой.
+//(Длина середины должна быть не менее 50% от общей длины). Для заполнения массива должны быть реализованы set и get методы.
+
 public class Task4 {
     public static void main(String[] args) throws IOException {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));

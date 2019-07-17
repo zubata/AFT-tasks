@@ -5,6 +5,17 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
+//Task:
+//Необходимо:
+//Прочитать слова из файла.
+//Отсортировать в алфавитном порядке.
+//Посчитать сколько раз каждое слово встречается в файле.
+//Вывести статистику на консоль
+//Найти слово с максимальным количеством повторений.
+//Вывести на консоль это слово и сколько раз оно встречается в
+//файле
+//Реализация через ArrayList
+
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader rd = new BufferedReader(new InputStreamReader(new FileInputStream("\\\\megafon.ru\\fr\\MF\\MSK\\VOL12\\oleg.zubkov\\Desktop\\res.txt")));

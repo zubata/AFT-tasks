@@ -4,6 +4,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//Task5
+//Правило треугольника
+//Ввести с клавиатуры 3 числа a,b,c - стороны предполагаемого треугольника
+//Определить возможность существования треугольника
+//Результат вывода:
+//"Треугольник существует" или "Треугольник не существует"
+//Подсказка:
+//Треугольник существует только тогда, когда сумма двух любых его сторон больше третьей.
+
 public class Test5 {
     public static void main(String[] args) throws IOException {
         int[] mas = new int[3];

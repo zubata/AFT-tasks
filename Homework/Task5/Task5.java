@@ -5,6 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+// Task5
+//Пользователем задается массив чисел и его размерность, если есть место для разбиения массива так, чтобы сумма чисел на одной стороне была равна сумме чисел на другой стороне вывести на экран 2 массива
+//(каждый из них одна половина изначального массива) и суммы чисел итоговых массивов.
+
 public class Task5 {
     public static void main(String[] args) throws IOException {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
